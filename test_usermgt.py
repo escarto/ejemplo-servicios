@@ -11,4 +11,4 @@ def get_users(client):
 
 def test_get_users(client):
 	result = get_users(client)
-	assert b'operativos' in result.data
+	assert b'root' in result.data
